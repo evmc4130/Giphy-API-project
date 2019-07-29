@@ -2,7 +2,8 @@ var giphyApiKey = "rjgzVsxdrntWAWocnTOtSiop08w8AkTK";
 
 function sendApiRequest(){
   var input = document.getElementById("input").value;
-  console.log(input);
+
+  if (input === ""){return; }
 
   // var newNode = document.createElement("div");
   // newNode.innerText = input;
